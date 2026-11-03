@@ -1,3 +1,4 @@
+import PlanetScene from './PlanetScene'
 import { useState } from 'react'
 import heroImg from './assets/hero.png'
 import reactLogo from './assets/react.svg'
@@ -9,6 +10,7 @@ function App() {
 
   return (
     <>
+    <PlanetScene />
       <section id="center">
         <div className="hero">
           <img src={heroImg} className="base" width="170" height="179" alt="" />
