@@ -1,3 +1,4 @@
+import confetti from 'canvas-confetti'
 import { useState } from 'react'
 import heroImg from './assets/hero.png'
 import reactLogo from './assets/react.svg'
@@ -28,6 +29,18 @@ function App() {
         >
           Count is {count}
         </button>
+        <button
+          type="button"
+          onClick={() => {
+            confetti({
+              particleCount: 150,
+              spread: 80,
+              origin: { y: 0.6 }
+            })
+          }}
+          >
+            Lanzar confetti 🎉
+      </button>
       </section>
 
       <div className="ticks"></div>
