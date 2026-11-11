@@ -49,4 +49,10 @@ Para guardar esos cambios en el historial del repositorio debemos realizar un co
 
 ## 6. Web desplegada
 
-Pendiente de añadir el enlace de GitHub Pages.
+La aplicación se ha compilado con `npm run build` y se ha publicado en GitHub Pages.
+
+**Enlace a la web:** https://nicolas7462.github.io/actividad-npm-react-vite-web/
+
+**Repositorio del despliegue:** https://github.com/nicolas7462/actividad-npm-react-vite-web
+
+La versión publicada incluye el botón de confeti y la escena 3D realizada con Three.js.
